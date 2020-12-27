@@ -1,0 +1,87 @@
+---
+layout: default
+title: Create
+---
+<h2 class="htitle">
+  {{ page.title }}
+  <small>
+    a community of appreciation
+  </small>
+</h2>
+
+<a href="/assets/pdf/CustomAppreciation_c2020.pdf" target="_blank">
+  <button class="button-a">
+    Create Appreciation
+  </button>
+
+</a>
+
+{% assign sorted_gallery = site.data.photo_gallery.images | where: 'category', 'custom' | sort: 'weight' %}
+<div class="photo-gallery">
+  {% for image in sorted_gallery %}
+    <div>
+      <a href="{{ image.link }}">
+        <img src="{{ image.image }}" alt="{{ image.title }}">
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  small{
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 10px;
+  }
+  @media (max-width: 1100px){
+    h2.htitle{
+      font-size: 24px;
+      font-weight: 600;
+      padding: 10px
+    }
+  }
+  @media (max-width: 1100px){
+    small{
+      font-size: 15px;
+      font-weight: 100;
+      padding-left: 10px
+    }
+  }
+  @media (max-width: 700px){
+    h2.htitle{
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px
+    }
+  }
+  @media (max-width: 700px){
+    small{
+      font-size: 14px;
+      font-weight: 100;
+      padding-left: 10px
+    }
+  }
+  .photo-gallery img{
+    padding: 10px;
+  }
+  @media (max-width: 1100px) {
+    .photo-gallery img{
+      height: 500px;
+      width: 500px;
+      padding: 7px;
+    }
+  }
+  @media (max-width: 700px) {
+      .photo-gallery img{
+          height: 400px;
+          width: 400px;
+          padding: 5px;
+      }
+  }
+  .button-a{
+    background-color: rgb(228, 235, 236);
+    font-size: 16px;
+    border-radius: 6px;
+  }
+
+</style>
