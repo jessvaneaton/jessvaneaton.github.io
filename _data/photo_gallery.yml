@@ -1,12 +1,12 @@
 images:
 
-  - {image: /assets/img/NPAD_Share_007.jpg, title: 'life is better with you in it', weight: 50, category: 'share', carousel: true}
+  - {image: /assets/img/NPAD_Share_007.JPG, title: 'life is better with you in it', weight: 50, category: 'share', carousel: true}
   - {image: /assets/img/NPAD_Share_002.jpg, title: 'the world needs who you were made to be', weight: 49, category: 'share', carousel: true}
   - {image: /assets/img/NPAD_Share_003.jpg, title: 'you are valuable', weight: 48, category: 'share'}
   - {image: /assets/img/NPAD_Share_004.jpg, title: 'you are important to me', weight: 47, category: 'share', carousel: true}
 
-  - {image: /assets/img/NPAD_Discover_005.jpg, title: 'always help someone: you might be the only one that does', weight: 50, category: 'discover', carousel: true}
-  - {image: /assets/img/NPAD_Discover_006.jpg, title: 'be someone who helps others look forward to tomorrow', weight: 49, category: 'discover', carousel: true}
+  - {image: /assets/img/NPAD_Discover_005.JPG, title: 'always help someone: you might be the only one that does', weight: 50, category: 'discover', carousel: true}
+  - {image: /assets/img/NPAD_Discover_006.JPG, title: 'be someone who helps others look forward to tomorrow', weight: 49, category: 'discover', carousel: true}
   - {image: /assets/img/NPAD_Discover_003.jpg, title: "one kind word can change someone's entire day", weight: 48, category: 'discover'}
   - {image: /assets/img/NPAD_Discover_004.jpg, title: 'tell people how important they are to you', weight: 47, category: 'discover'}
 
