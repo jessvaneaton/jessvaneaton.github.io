@@ -14,7 +14,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "National Person Appreciation Day"
+title:		           "Cards That Matter"
 title_sub:           "every day, every person, everywhere"
 description:	       "A site for sharing gratitude"
 author:              "Jessica Van Eaton"
